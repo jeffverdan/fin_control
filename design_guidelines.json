@@ -1,0 +1,155 @@
+{
+  "project_name": "FinControl",
+  "design_philosophy": {
+    "identity": "The Performance Pro (Swiss & High-Contrast)",
+    "core_principles": [
+      "Clarity is the ultimate sophistication - Data comes first.",
+      "Visual Hierarchy over decoration - Use size and weight, not just color.",
+      "Professional Trust - No playful gradients, solid reliable aesthetics.",
+      "Density with Breathability - Tight data grids inside spacious containers."
+    ],
+    "vibes": [
+      "Corporate",
+      "Trustworthy",
+      "Precision",
+      "Wealth"
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "heading": "\"Plus Jakarta Sans\", \"Manrope\", sans-serif",
+      "body": "\"Public Sans\", \"Inter\", sans-serif",
+      "mono": "\"JetBrains Mono\", \"Fira Code\", monospace"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-4xl font-semibold tracking-tight",
+      "h3": "text-2xl font-semibold tracking-tight",
+      "p": "text-base leading-relaxed text-muted-foreground",
+      "small": "text-sm font-medium leading-none",
+      "mono_data": "font-mono text-sm tracking-wide"
+    }
+  },
+  "colors": {
+    "theme_strategy": "dual_theme",
+    "light": {
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "card_foreground": "#0F172A",
+      "primary": "#0F172A",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#F1F5F9",
+      "secondary_foreground": "#0F172A",
+      "muted": "#F8FAFC",
+      "muted_foreground": "#64748B",
+      "accent": "#F1F5F9",
+      "accent_foreground": "#0F172A",
+      "border": "#E2E8F0",
+      "input": "#E2E8F0",
+      "ring": "#0F172A",
+      "success": "#059669",
+      "warning": "#D97706",
+      "error": "#DC2626"
+    },
+    "dark": {
+      "background": "#09090B",
+      "foreground": "#FAFAFA",
+      "card": "#18181B",
+      "card_foreground": "#FAFAFA",
+      "primary": "#FAFAFA",
+      "primary_foreground": "#18181B",
+      "secondary": "#27272A",
+      "secondary_foreground": "#FAFAFA",
+      "muted": "#27272A",
+      "muted_foreground": "#A1A1AA",
+      "accent": "#27272A",
+      "accent_foreground": "#FAFAFA",
+      "border": "#27272A",
+      "input": "#27272A",
+      "ring": "#D4D4D8",
+      "success": "#34D399",
+      "warning": "#FBBF24",
+      "error": "#F87171"
+    }
+  },
+  "layout": {
+    "grid_system": {
+      "dashboard_mode": "bento_tetris",
+      "columns": "grid-cols-1 md:grid-cols-2 lg:grid-cols-4",
+      "gap": "gap-6"
+    },
+    "spacing": {
+      "container_padding": "p-6 md:p-8 lg:p-10",
+      "section_gap": "gap-8"
+    },
+    "border_radius": {
+      "default": "rounded-lg",
+      "card": "rounded-xl",
+      "button": "rounded-md"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm font-semibold h-10 px-6",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 font-medium h-10 px-6",
+      "ghost": "hover:bg-accent hover:text-accent-foreground font-medium h-10 px-4",
+      "destructive": "bg-destructive text-destructive-foreground hover:bg-destructive/90 shadow-sm h-10 px-6"
+    },
+    "cards": {
+      "base": "bg-card text-card-foreground rounded-xl border border-border shadow-sm p-6 hover:shadow-md transition-shadow duration-200",
+      "metric": "flex flex-col gap-2 p-6 bg-card border border-border/60 rounded-xl"
+    },
+    "inputs": {
+      "default": "flex h-10 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
+    },
+    "tables": {
+      "wrapper": "w-full overflow-auto rounded-lg border border-border",
+      "header": "bg-muted/50 text-muted-foreground font-medium text-xs uppercase tracking-wider",
+      "row": "border-b border-border hover:bg-muted/30 transition-colors"
+    }
+  },
+  "visual_assets": {
+    "icons": {
+      "library": "lucide-react",
+      "style": "stroke-width={1.5} size={20}"
+    },
+    "images": {
+      "hero_abstract": "https://images.unsplash.com/photo-1723835723056-7386cd0c3a00?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwYWJzdHJhY3QlMjAzZCUyMHNoYXBlcyUyMGZpbmFuY2UlMjBnbGFzc21vcnBoaXNtfGVufDB8fHx8MTc3MDE3MTk1Nnww&ixlib=rb-4.1.0&q=85",
+      "auth_background": "https://images.unsplash.com/photo-1761772437826-52507ca490d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwzfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBidWlsZGluZyUyMGFyY2hpdGVjdHVyZSUyMG1pbmltYWxpc3R8ZW58MHx8fHwxNzcwMTcxOTU4fDA&ixlib=rb-4.1.0&q=85",
+      "user_persona_1": "https://images.pexels.com/photos/7971655/pexels-photo-7971655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "user_persona_2": "https://images.unsplash.com/photo-1552951131-fe0a46bb778e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwyfHxjb25maWRlbnQlMjBidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMHVzaW5nJTIwcGhvbmUlMjBvZmZpY2V8ZW58MHx8fHwxNzcwMTcxOTU3fDA&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "charts": {
+    "library": "recharts",
+    "palette": [
+      "#0F172A",
+      "#059669",
+      "#0EA5E9",
+      "#D97706",
+      "#DC2626"
+    ],
+    "style": {
+      "grid": "stroke-border stroke-dasharray='3 3' vertical={false}",
+      "tooltip": "contentStyle={{ backgroundColor: 'hsl(var(--card))', borderColor: 'hsl(var(--border))', borderRadius: 'var(--radius)' }}"
+    }
+  },
+  "implementation_instructions": {
+    "formatting": {
+      "currency": "Use Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' })",
+      "date": "Use date-fns with pt-BR locale"
+    },
+    "accessibility": {
+      "focus_ring": "ring-2 ring-ring ring-offset-2",
+      "contrast": "Always ensure text-muted-foreground is readable on bg-card"
+    },
+    "universal_guidelines": [
+      "Avoid 'Inter' for headings. Use the designated heading font.",
+      "Don't use generic gradients. Use solid, high-contrast colors.",
+      "Ensure all interactive elements have data-testid for testing.",
+      "Use 'sonner' for toasts.",
+      "Do not use transparent backgrounds for dropdowns or modals."
+    ]
+  }
+}
